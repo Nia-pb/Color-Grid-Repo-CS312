@@ -1,0 +1,132 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2703a6;
+    overflow: hidden;
+    color: white;
+}
+
+.navli {
+    display:inline;
+    line-height:59px;
+    float: left;
+    padding: 14px 16px;
+}
+
+.navli a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.navli:hover {
+    background-color: #f2b705;
+}
+
+.break {
+    margin: 175;
+}
+
+.aboutContainer {
+    overflow: auto;
+    float: left;
+    margin: 30 30;
+    width: 450px;
+    height: 515px;
+}
+
+.clearFloat {
+    clear: both;
+}
+
+.title {
+    font-style: italic;
+    text-align: center;
+}
+
+.name {
+    font-family: Sans-serif,Serif;
+    text-align: center;
+    color: #141259;   
+}
+
+.bio {
+    font-family: Sans-serif,Serif;
+}
+
+.homeContainer {
+   position: relative;
+}
+
+.imageText {
+  font-family: Sans-serif,"Monaco",Serif;
+  font-size: 17px;
+  text-align: center;
+  line-height: 0.8;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.imageBlock {
+  background-color: black;
+  width:325px;
+  height: 175px;
+  position: absolute;
+  opacity: .6;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutBlock {
+  background-color: #2703a6;
+  width:600px;
+  height: 175px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutText {
+  font-family: Sans-serif,"Monaco",Serif;
+  font-size: 50px;
+  text-align: center;
+  line-height: 0.8;
+  color: white;
+  position: absolute;
+  top:  100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.imgstyle {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer-style {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2703a6;
+    overflow: hidden;
+    color: white;
+}
+
+.footer-item-left {
+    float: left;
+    padding: 14px 40px;
+}
+
+.footer-item-right {
+    text-align: right;
+    list-style-type: none;
+    float: right;
+    padding: 14px 40px;
+}
